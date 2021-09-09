@@ -3,31 +3,31 @@ package com.galactros.puc.integrationproject1a.model;
 
 public class DoencaPorcentagem {
     
-    private double porcentagemPneumonia;
-    private double porcentagemTrombosePulmonar;
-    private double porcentagemCovid;
+    private Double porcentagemPneumonia;
+    private Double porcentagemTrombosePulmonar;
+    private Double porcentagemCovid;
 
-    public double getPorcentagemPneumonia() {
+    public Double getPorcentagemPneumonia() {
         return porcentagemPneumonia;
     }
 
-    public void setPorcentagemPneumonia(double porcentagemPneumonia) {
+    public void setPorcentagemPneumonia(Double porcentagemPneumonia) {
         this.porcentagemPneumonia = porcentagemPneumonia;
     }
 
-    public double getPorcentagemTrombosePulmonar() {
+    public Double getPorcentagemTrombosePulmonar() {
         return porcentagemTrombosePulmonar;
     }
 
-    public void setPorcentagemTrombosePulmonar(double porcentagemTrombosePulmonar) {
+    public void setPorcentagemTrombosePulmonar(Double porcentagemTrombosePulmonar) {
         this.porcentagemTrombosePulmonar = porcentagemTrombosePulmonar;
     }
 
-    public double getPorcentagemCovid() {
+    public Double getPorcentagemCovid() {
         return porcentagemCovid;
     }
 
-    public void setPorcentagemCovid(double porcentagemCovid) {
+    public void setPorcentagemCovid(Double porcentagemCovid) {
         this.porcentagemCovid = porcentagemCovid;
     }
     
