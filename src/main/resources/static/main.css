@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-checkbox {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.item {
+    flex: 1 0 21%; /* explanation below */
+}
+
+input {
+    vertical-align: middle;
+}
+
+span {
+    vertical-align: middle;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.w3-light-grey {
+    width: 50%;
+}
