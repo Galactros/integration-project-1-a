@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+
+  integration-project-1-a:
+      image: galactros/integration-project-1-a:latest
+      container_name: integration-project-1-a
+      restart: always
+      ports:
+        - "80:8080"

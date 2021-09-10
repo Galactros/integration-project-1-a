@@ -1,5 +1,9 @@
 FROM openjdk:16-jdk
 
-COPY /target/app.jar /
+ARG JAR_FILE=target/*.jar
 
-CMD ["java", "-Dspring.profiles.active=prod" , "-jar" , "/app.jar"]
+ADD ${JAR_FILE} /app/app.jar
+
+EXPOSE 80
+
+ENTRYPOINT ["java","-jar","/app/app.jar"]
