@@ -86,12 +86,6 @@ public class DoencaService {
             pesoTrombosePulmonar++;
             pesoGeral += 1;
         }
-
-        System.out.println("pesoGeral: " + pesoGeral);
-        System.out.println("pesoPneumonia: " + pesoPneumonia);
-        System.out.println("pesoTrombosePulmonar: " + pesoTrombosePulmonar);
-        System.out.println("pesoCovid: " + pesoCovid);
-
     }
 
     public double processarPorcentagensPneumonia() {

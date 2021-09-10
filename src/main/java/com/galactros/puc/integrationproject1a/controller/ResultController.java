@@ -23,10 +23,6 @@ public class ResultController {
         DoencaService doencaService = new DoencaService();
         DoencaPorcentagem doencaporcentagem = doencaService.processarDoencas(model);
 
-        System.out.println(doencaporcentagem.getPorcentagemPneumonia());
-        System.out.println(doencaporcentagem.getPorcentagemTrombosePulmonar());
-        System.out.println(doencaporcentagem.getPorcentagemCovid());
-
         str = str.replace("{{porcentagemPneumonia}}", doencaporcentagem.getPorcentagemPneumonia().intValue() + "");
         str = str.replace("{{porcentagemTrombosePulmonar}}", doencaporcentagem.getPorcentagemTrombosePulmonar().intValue() + "");
         str = str.replace("{{porcentagemCovid}}", doencaporcentagem.getPorcentagemCovid().intValue() + "");
