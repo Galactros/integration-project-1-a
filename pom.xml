@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.galactros.puc</groupId>
     <artifactId>integration-project-1-a</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>integration-project-1-a</name>
     <description>integration-project-1-a</description>
     <properties>
